@@ -1,24 +1,37 @@
-#  crypto-c
+#  Caesar Cipher in C
 
-A repository of encryption and decryption algorithms written in pure C, intended for educational, academic, and cryptographic development purposes. Each algorithm is implemented in its own folder with clean, modular code and documentation.
+This repository contains a clean and modular implementation of the **Caesar cipher**, written in C.  
+It allows you to **encrypt and decrypt messages** using a user-defined shift key.  
+Perfect for learning classic cryptography and C programming fundamentals.
 
-## 📚 Included ciphers
+---
 
- Implemented:
+## 📖 What is the Caesar Cipher?
 
-- **Caesar**  
-- **Vigenère**  
-- **XOR with key**
-- **AES**  
-- **RSA**  
-- **Diffie-Hellman key exchange**  
-- **Enigma machine simulation**
+The **Caesar cipher** is one of the oldest known encryption techniques, used by Julius Caesar.  
+It works by shifting each **alphabetic character** in the message by a fixed number of positions in the alphabet.
 
-## 🛠️ How to build
+### 🔄 How it works:
 
-Each cipher is placed in its own folder (e.g. `caesar/`, `vigenere/`, etc.).  
-To compile a cipher, navigate into its folder and run:
+- **Encryption:** shift each letter **forward** by a given number (key)
+- **Decryption:** shift each letter **backward** by the same number
 
-```bash
-gcc main.c -o cipher
-./cipher
+### 📌 Example (Shift = 3):
+Plaintext : HELLO WORLD
+Encrypted : KHOOR ZRUOG
+
+⚙️ Features
+
+- ✅ Encrypt and decrypt from user input
+- ✅ Handles uppercase and lowercase letters
+- ✅ Skips symbols, digits, whitespace
+- ✅ Modular and readable code structure
+- ✅ Cross-platform (Linux/Windows compatible)
+- ✅ Loop for multiple operations in one session
+
+How to Compile? :
+gcc main.c -o caesar
+How to Run? :
+./caesar       # on Linux/macOS
+caesar.exe     # on Windows (Code::Blocks or cmd)
+
