@@ -35,5 +35,5 @@ gcc main.c -o caesar
 
 How to Run? :
 ./caesar       # on Linux/macOS
-caesar.exe     # on Windows (Code::Blocks or cmd)
+caesar.exe     # on Windows (C compiler or cmd)
 
