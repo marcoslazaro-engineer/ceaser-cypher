@@ -6,21 +6,21 @@ Perfect for learning classic cryptography and C programming fundamentals.
 
 ---
 
-## 📖 What is the Caesar Cipher?
+## What is the Caesar Cipher?
 
 The **Caesar cipher** is one of the oldest known encryption techniques, used by Julius Caesar.  
 It works by shifting each **alphabetic character** in the message by a fixed number of positions in the alphabet.
 
-### 🔄 How it works:
+###  How it works:
 
 - **Encryption:** shift each letter **forward** by a given number (key)
 - **Decryption:** shift each letter **backward** by the same number
 
-### 📌 Example (Shift = 3):
+###  Example (Shift = 3):
 Plaintext : HELLO WORLD
 Encrypted : KHOOR ZRUOG
 
-⚙️ Features
+ Features
 
 - ✅ Encrypt and decrypt from user input
 - ✅ Handles uppercase and lowercase letters
