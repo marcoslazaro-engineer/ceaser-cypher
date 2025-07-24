@@ -30,7 +30,7 @@ Encrypted : KHOOR ZRUOG
 - ✅ Loop for multiple operations in one session
 
 How to Compile? :
-gcc main.c -o caesar
+gcc -o caesar caesar.c
 
 
 How to Run? :
