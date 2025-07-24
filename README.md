@@ -1,20 +1,20 @@
 #  Caesar Cipher in C
 
-This repository contains a clean and modular implementation of the **Caesar cipher**, written in C.  
-It allows you to **encrypt and decrypt messages** using a user-defined shift key.  
+This repository contains a clean and modular implementation of the Caesar cipher, written in C.  
+It allows you to encrypt and decrypt messages using a user-defined shift key.  
 Perfect for learning classic cryptography and C programming fundamentals.
 
 ---
 
 ## What is the Caesar Cipher?
 
-The **Caesar cipher** is one of the oldest known encryption techniques, used by Julius Caesar.  
-It works by shifting each **alphabetic character** in the message by a fixed number of positions in the alphabet.
+The Caesar cipher is one of the oldest known encryption techniques, used by Julius Caesar.  
+It works by shifting each alphabetic character in the message by a fixed number of positions in the alphabet.
 
 ###  How it works:
 
-- **Encryption:** shift each letter **forward** by a given number (key)
-- **Decryption:** shift each letter **backward** by the same number
+- Encryption: shift each letter forwardby a given number (key)
+- Decryption: shift each letter backward by the same number
 
 ###  Example (Shift = 3):
 Plaintext : HELLO WORLD
